@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>StarTker</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<!--顶部导航-->
+	<header class="header" id="id_header">
+		<!--logo-->
+		<div class="logo"></div>
+		<div class="daohang">
+			<a href="#">主页</a>
+			<a href="#">数据服务</a>
+			<a href="#">关于我们</a>
+			<a href="#">加入我们</a>
+			<a class="fa fa-reorder" id="show_menu"></a>
+		</div>
+	</header>
+	<!--右侧侧拉菜单-->
+	<div class="menu">
+		<i class="fa fa-remove fa-2x" id="close_menu"></i>
+		<ul class="ul_parent">
+			<li>全部优选服务</li>
+			<li>CEO影响力<i class="fa fa-chevron-down"></i></li>
+			<ul class="ul_child">
+				<li>个人品牌</li>
+				<li>事件传播</li>
+				<li>全案打造</li>
+			</ul>
+			<li>企业品牌</li>
+			<li>个性化服务</li>
+			<li>精彩案例</li>
+			<li>我的服务站</li>
+		</ul>
+	</div>
+	<!--全局阴影-->
+	<div class="shadow"></div>
+	<!--内容区-->
+	<section class="section" id="id_section">
+		<div class="section_life"></div>
+		<i class="fa fa-angle-double-down fa-2x" id="show_line_inf"></i>
+		<div class="section_life_inf">
+			<p>让创意更酷，让品牌更美。StarTker，以数字内容营销为核心的众创式内容服务
+				为中小企业带来品牌升级的变革工具，领跑企业内容服务。全媒体时代，营销是
+				一场注意力资源的争夺战，StarTker 以它出色的创意提供、数据挖掘、策略管理
+				和媒体创作能力，正在帮助众多品牌主深度连接用户。每一个星品牌之前都是新
+				品牌，即使是起步，StarTker 也愿与您同行。
+			</p>
+		</div>
+		<div class="content_one">
+			<h2>品牌商与消费者连接的最好方式<br>是<span style="line-height: 2em;">内容</span></h2>
+			<div class="one_main">
+				<div class="one_left">
+					<p id="p_left">告别低价竞争</p>
+					<i class="fa fa-legal fa-3x"></i>
+				</div>
+				<div class="one_center">
+					<p id="p_center">体验赢得用户</p>
+					<i class="fa fa-user fa-3x"></i>
+				</div>
+				<div class="one_right">
+					<p id="p_right">情感认同致胜</p>
+					<i class="fa fa-heart fa-3x"></i>
+				</div>
+			</div>
+			<div id="inf_show2">
+				<p>无内容，不关系</p><br>
+				<i class="fa fa-angle-double-down fa-2x" title="了解更多"></i>
+			</div>
+			<div class="inf_hide_public" id="inf_fiv2">
+				<p>根据美国内容营销协会的定义，<br>内容营销是基于对界定清晰的目标受众的理解，<br>有针对性的创造和发布与顾客相关且有价值的内容来吸引、获得这些受众，<br>并使其产生购买行为，位企业带来盈利的全部过程。</p>
+			</div>
+		</div>
+		<div class="content_two">
+			<div class="content_tf">
+				<h3>StarTker<br>服务小站</h3>
+			</div>
+			<h2>比过去更快、更灵活</h2>
+			<div class="box_public">
+				<div class="left">
+					<p><span>灵活，所以更快。</span><br>即时全天候对接，五分钟内接单，平均2小时完成，效率比传统服务模式极大提高，极致享受体验。</p>
+				</div>
+				<div id="speed">
+					<i class="fa fa-rocket"></i>
+				</div>
+				<p>
+					低成本 - 短周期
+				</p>
+			</div>
+			<button class="btn_public" type="button">了解更多</button>
+			<div class ="inf_hide_public" id="inf_two">
+				<p>每月预算 100K起，服务周期三个月以上，原有传统广告、关键字购买等方式已不适用，成本高、见效差，中小企业主急需更好的品牌管理工具。</p>
+			</div>
+		</div>
+		<div class="content_three">
+			<div class="content_ot">
+				<h3>StarTker<br>灵感集成器</h3>
+			</div>
+			<h2>创意，不止于多</h2>
+			<div class="box_public">
+				<div class="left">
+					<p><span>2000</span><br> 位专业垂直媒体人<br>好创意的是10000中的那1个。</p>
+				</div>
+				<div id="lightbulb"></div>
+				<p>存匠心，方有好内容</p>
+			</div>
+			
+		</div>
+		<div class="content_four">
+			<div class="content_tf">
+				<h3>StarTker<br>数据营销系统</h3>
+			</div>
+			<h2>人在做，云在帮人算</h2>
+			<div class="box_public">
+				<div class="left">
+					<p id="p"><span>核心独创的品牌云端管理系统</span><br>根据全网数据、历史投放等从多个角度进行定向投放、跨平台的数据分析比对和深度特征归纳，实现分钟级数据监测、策略的纵深洞察与动态调整。</p>
+				</div>
+				<div class="center">
+					<i class="fa fa-desktop" id="computer"></i>
+				</div>
+				<i class="fa fa-mail-reply" id="reply_1"></i>
+				<i class="fa fa-mail-reply" id="reply_2"></i>
+				<i class="fa fa-mail-forward" id="reply_3"></i>
+				<div id="yun">
+					<i class="fa fa-cloud"></i>
+					<p>云计算</p>
+				</div>
+				<div id="jiance">
+					<i class="fa fa-retweet"></i>
+					<p>精准数据评估检测</p>
+				</div>
+			</div>
+			<button class="btn_public" type="button">了解更多</button>
+			<div class ="inf_hide_public" id="inf_four">
+				<p>媒体内容众创者定位匹配系统<br>品牌静态和动态同步管理系统(市场唯一)<br>策略模型体系<br>行业与场景方案数据库</p>
+			</div>
+		</div>
+		<div class="content_five">
+			<div class="content_ot">
+				<h3>StarTker<br>每一次服务</h3>
+			</div>
+			<h2>10倍于过去 ROI 效果<br>只有结果说明一切</h2>
+			<button class="btn_public" type="button" id="btn_start">开启服务</button>
+			<div id="inf_show">
+				<p>品牌主 in-house 一站内容解决</p><br>
+				<i class="fa fa-angle-double-down fa-2x" title="了解更多"></i>
+			</div>
+			<div class="inf_hide_public" id="inf_fiv">
+				<p>从认知力的进化，实现销售激增<br>
+					促销做了很多，但是 ROI 步步下滑<br>
+					客户转化率提升—新增用户不少，但是只有流失，但不见留存<br>
+					精准渠道—广告很多，但是投放质量不行</p>
+			</div>
+		</div>
+	</section>
+	<!--版权区-->
+	<footer class="footer" id="id_footer">
+		<div class="footer_left">
+			<div class="footer_logo"></div>
+		</div>
+		<div class="footer_right">
+			<i class="fa fa-wechat fa-2x" title="24 小时客服：StarTker 北京客服团队 二维码"></i>
+			<div class="wechat"></div>
+			<div class="inform">
+				<span>中小企业内容服务提供商，提供最专业的数字内容营销<br>StarTker-众创内容服务开创者</span><br>
+				<a href="#">直接下单</a>
+				<a href="#">获得服务帮助</a>
+				<a href="#">分期结算</a>
+			</div>
+		</div>
+	</footer>
+	</body>
+	</html>

@@ -1,0 +1,7 @@
+@font-face{
+	font-family: PingHei;
+	src:url('../fonts/eot/PingHeiText.eot');
+}
+*{
+	font-family: PingHei;
+}
