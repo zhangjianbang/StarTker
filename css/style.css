@@ -273,13 +273,14 @@ h2 span{
 	float: left;
 	margin-left: 50px;
 	position: absolute;
+	word-break: break-all;
 }
 .box_public .left p{
 	text-align: left;
 	font-size: 14px;
 	margin-top:150px;
 	line-height: 1.5em;
-	margin-left: -200px;
+	
 }
 .box_public .left p span{
 	color: rgb(102,187,255);
@@ -457,7 +458,7 @@ h2 span{
 .footer .footer_left{
 	width: 50%;
 	height: 150px;
-	border-right:1px solid #ccc;
+	border-right:1px solid #828282;
 	display: inline-block;
 	margin-top: 25px;
 	position: relative;
@@ -491,7 +492,8 @@ h2 span{
 	height: 155px;
 	border:2px solid rgb(247,247,247);
 	top: -190px;
-	left: 37%;
+	left: 50%;
+	margin-left: -75px;
 	background-image: url("../img/erweima.png");
 	background-size: 150px;
 	background-repeat: no-repeat;
